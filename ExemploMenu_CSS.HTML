@@ -13,7 +13,9 @@
             background-color: black;
         }
 
-        li{float: left;}
+        li{
+            float: left;
+        }
 
         li a, .dropbtn{
             display:inline-block;
@@ -52,7 +54,7 @@
             background-color: pink;
         }
 
-        .dropdow:hover .dropdown-content{
+        .dropdown:hover .dropdown-content{
             display: block;
         }
     </style>
@@ -63,8 +65,8 @@
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Novidade</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">dropdown</a>
-            <div>
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
                 <a href="#">Link1</a>
                 <a href="#">Link2</a>
                 <a href="#">Link3</a>
@@ -73,8 +75,5 @@
     </ul>
     <h3>Menu do Tipo DROPDOWN</h3>
     <P>Passe o mouse no atravez dos Menus</P>
-
-
-
 </body>
 </html>
