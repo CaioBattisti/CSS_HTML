@@ -1,7 +1,8 @@
 body {
-    margin: 100;
-    padding: 200;
+    margin: 50px;
+    padding: 40px;
     font-family: Arial, sans-serif;
+    width: 50px 100px;
 }
 
 .cabecalho {
@@ -25,6 +26,7 @@ body {
     height: 400px;
     padding: 10px;
 }
+
 
 .rodape {
     clear: both;
