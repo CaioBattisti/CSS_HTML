@@ -1,0 +1,35 @@
+body {
+    margin: 100;
+    padding: 200;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    background-color: yellow;
+    height: 150px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: lightblue;
+    width: 200px;
+    float: left;
+    height: 400px;
+    padding: 10px;
+}
+
+.conteudo {
+    background-color: lightcoral;
+    margin-left: 220px;
+    height: 400px;
+    padding: 10px;
+}
+
+.rodape {
+    clear: both;
+    background-color: green;
+    height: 50px;
+    padding: 10px;
+    color: white;
+}
